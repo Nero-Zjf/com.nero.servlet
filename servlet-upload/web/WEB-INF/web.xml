@@ -7,16 +7,16 @@
     <!--配置Servlet-->
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>com.nero.servlet.upload.ServletDemo</servlet-class>
+        <servlet-class>servlet.upload.ServletDemo</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Upload</servlet-name>
-        <servlet-class>com.nero.servlet.upload.UploadServlet</servlet-class>
+        <servlet-class>servlet.upload.UploadServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>CommonUpload</servlet-name>
-        <servlet-class>com.nero.servlet.upload.CommonUploadServlet</servlet-class>
+        <servlet-class>servlet.upload.CommonUploadServlet</servlet-class>
     </servlet>
     <!--配置Servlet的映射-->
     <servlet-mapping>
@@ -36,7 +36,7 @@
     <!--过滤器配置-->
     <filter>
         <filter-name>filterDemo</filter-name>
-        <filter-class>com.nero.servlet.upload.FilterDemo</filter-class>
+        <filter-class>servlet.upload.FilterDemo</filter-class>
         <init-param>
             <param-name>title</param-name>
             <param-value>IDEA</param-value>
